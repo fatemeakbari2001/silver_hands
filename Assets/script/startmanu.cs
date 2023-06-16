@@ -14,8 +14,6 @@ public class startmanu : MonoBehaviour
         SceneManager.LoadScene(index);
         sond.GetComponent<AudioSource>().Play();
     }
-
-    
     public void doExitGame()
     {
         Application.Quit();

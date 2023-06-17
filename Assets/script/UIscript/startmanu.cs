@@ -7,7 +7,7 @@ using UnityEngine;
 public class startmanu : MonoBehaviour
 {
 
-    public GameObject setting_window, abouteUsWindow, sond;
+    public GameObject setting_window, abouteUsWindow, start_window , ErroPnel,sond;
 
     public void start(int index)
     {
@@ -19,7 +19,11 @@ public class startmanu : MonoBehaviour
         Application.Quit();
         sond.GetComponent<AudioSource>().Play();
     }
-   
+    public void AbouteUs()
+    {
+        abouteUsWindow.SetActive(true);
+        sond.GetComponent<AudioSource>().Play();
+    }
     public void Settings()
     {
         setting_window.SetActive(true);

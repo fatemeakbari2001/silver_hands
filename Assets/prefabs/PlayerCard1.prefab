@@ -126,14 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baa3e7ca963ad1148b596f357eacf775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: 
-  player2: 
   soly: {fileID: 0}
-  log1: {fileID: 7148646937715068633, guid: 5eb6b880619186a42a36dc5721f506f6, type: 3}
-  logical: {fileID: 674262388734052984, guid: 3b3dfec744677754a8dda0ac758dcb6c, type: 3}
-  entercard: 0
-  playervalue1: 0
-  playervalue2: 0
 --- !u!61 &3819079868193999122
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -158,7 +151,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.22, y: 1.8285714}
+  m_Size: {x: 1.25, y: 1.85}
   m_EdgeRadius: 0
 --- !u!82 &7299050433960209401
 AudioSource:

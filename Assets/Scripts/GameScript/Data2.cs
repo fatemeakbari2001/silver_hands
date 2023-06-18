@@ -6,6 +6,7 @@ using System.Linq;
 public class Data2 : MonoBehaviour
 {
     public Sprite[] cardFace;
+    public string play1, play2;
     public GameObject prefabCard;
     public GameObject[] bottomPos;
     public GameObject[] topPos;
